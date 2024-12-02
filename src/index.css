@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 0.1px; 
+    background-color: transparent; 
+  }
+  
+  /* ::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Make the thumb (scrollbar handle) invisible 
+  } */
+
+@font-face {
+    font-family: 'MyFont1';
+    src: url('./public/fonts/font1') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyFont2';
+    src: url('./public/fonts/font2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Borel';
+    src: url('./public/fonts/Borel') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
