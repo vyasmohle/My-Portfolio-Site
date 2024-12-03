@@ -64,9 +64,9 @@ function Projects() {
         "he Dribbble Clone website is a clean and visually appealing user interface project that replicates the design of the popular Dribbble platform. Built entirely with HTML and CSS, this project focuses on creating a pixel-perfect layout that captures the essence of Dribbble’s modern and professional design. It demonstrates an understanding of front-end development fundamentals, ensuring responsive design and cross-browser compatibility.",
       overview2:
         "Incorporating basic animations, the project adds subtle interactivity and smooth transitions, enhancing the user experience.",
-      projectLink: "",
-      githubLink: "",
-      tools: ["HTML", "CSS"],
+      projectLink: "https://vyasmohle.github.io/Exoape-Animated-Homepage/",
+      githubLink: "https://github.com/vyasmohle/Exoape-Animated-Homepage",
+      tools: ["HTML", " CSS", "JS"],
     },
 
     {
@@ -74,7 +74,7 @@ function Projects() {
       // height: "60vh",
      
       name: "Mentor Connect ",
-      bg: "url('https://images.unsplash.com/photo-1639322537231-2f206e06af84?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+      bg: "url('https://images.pexels.com/photos/276223/pexels-photo-276223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
       detail:
         "A Mentor Connect platform to facilitate mentor-mentee relationships, featuring live video calls, an automated scheduling system, and session tracking, using React and other web technologies.",
       video1:
@@ -88,6 +88,47 @@ function Projects() {
       projectLink: "",
       githubLink: "",
       tools: ["HTML", "CSS (tailwind css)", "Js", "React"],
+    },
+
+    {
+      width: "50vw",
+      // height: "60vh",
+     
+      name: "Exoape-Animated-Homepage",
+      bg: "url('https://images.pexels.com/photos/6112167/pexels-photo-6112167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
+      detail:
+        "An animated homepage built with React, featuring smooth scrolling and stunning effects using Framer Motion, GSAP, and Locomotive Scroll",
+      video1:
+        "https://videos.pexels.com/video-files/12352337/12352337-hd_1920_1080_60fps.mp4",
+      video2:
+        "https://videos.pexels.com/video-files/3515758/3515758-uhd_2560_1440_25fps.mp4",
+      overview1:
+        "Exoape - Animated Homepage is a visually captivating web project that highlights modern web design and animation capabilities. Built using React, this homepage incorporates advanced animation libraries such as Framer Motion, GSAP, and Locomotive Scroll to deliver an engaging user experience. The smooth scrolling effects, creative transitions, and interactive elements make the website stand out as a prime example of front-end creativity and execution.",
+      overview2:
+        "This project features a visually engaging animated homepage built using React. It incorporates advanced animation libraries like Framer Motion, GSAP, and Locomotive Scroll to deliver smooth scrolling, dynamic transitions, and interactive visual effects. Designed with a modern layout, the website ensures responsiveness across devices, providing an immersive user experience.",
+      projectLink: "",
+      githubLink: "",
+      tools: ["HTML", "Tailwind CSS", "react", "Locomotive Scroll", "ScrollTrigger"],
+    },
+
+    {
+      width: "35vw",
+      // height: "60vh",
+      
+      name: "Vyas Mohle - Personal Portfolio ",
+      bg: "url('https://images.pexels.com/photos/7233353/pexels-photo-7233353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
+      detail:
+        "A professional portfolio showcasing creative web designs, projects, and technical expertise with a blend of animation and modern UI/UX principles. Fully responsive and visually engaging",
+      video1:
+        "https://videos.pexels.com/video-files/4377755/4377755-uhd_2560_1440_24fps.mp4",
+      video2: "https://videos.pexels.com/video-files/7639540/7639540-hd_1080_1920_30fps.mp4",
+      overview1:
+        "This portfolio website is a professional showcase of my journey as a web developer, highlighting my skills, projects, and accomplishments in an interactive and visually captivating manner. It uses modern web design principles, enriched with smooth animations and responsive layouts, ensuring seamless navigation across all devices.",
+      overview2:
+        "The website serves as a one-stop platform to explore my skills, view my project portfolio, and understand my expertise in frontend technologies like React, Tailwind CSS, and animation libraries like Framer Motion. It also includes sections for about me, contact, and dynamic project details, making it both functional and aesthetically pleasing.",
+      projectLink: "https://vyasmohle.github.io/My-Portfolio-Site/",
+      githubLink: "https://github.com/vyasmohle/My-Portfolio-Site",
+      tools: ["HTML", "Tailwind CSS", "Framer Motion", "EmailJS","GSAP"],
     },
   ];
 
