@@ -45,7 +45,7 @@ function App() {
       ></video> */}
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/My-Portfolio-Site" element={<Home />} />
         <Route path="/projectDetail" element={<ProjectDetail />} />
       </Routes>
 
