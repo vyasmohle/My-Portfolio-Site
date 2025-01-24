@@ -25,7 +25,7 @@ function Projects() {
         "Movie Hub is built using cutting-edge technologies like React, Tailwind CSS, and Redux Toolkit, offering an interactive and responsive user interface. Features such as video playback (powered by the React Player library), infinite scrolling, and personalized recommendations enhance the user experience. The website is fully responsive, ensuring an optimal viewing experience for both mobile and desktop users. With live demo and GitHub repository integration, it empowers developers and viewers to explore and contribute to the project. This project serves as a comprehensive solution for exploring movies and TV shows, balancing functionality with modern design.",
       projectLink: "https://vyasmohle.github.io/Movie-Hub/",
       githubLink: "https://github.com/vyasmohle/Movie-Hub",
-      tools: ["HTML", "CSS (tailwind css)", "JS", "React"],
+      tools: ["HTML", "CSS (tailwind css)", "JS", "ReactJs"],
     },
 
     {
@@ -180,9 +180,7 @@ function Projects() {
 
               <div className="content max-w-screen-sm mx-auto   p-2 ">
                 <h1>
-                  A movie exploration platform that provides detailed
-                  information on movies, including ratings, trailers, release
-                  dates, actors, availability, and recommendations.
+                  {item.detail}
                 </h1>
               </div>
 

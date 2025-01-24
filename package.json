@@ -1,8 +1,6 @@
 {
   "name": "portfolio",
   "homepage" : "https://vyasmohle.github.io/My-Portfolio-Site",
-  
-
   "private": false,
   "version": "0.0.0",
   "type": "module",

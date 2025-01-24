@@ -28,7 +28,7 @@ function Contact() {
           </div>
           <div className="flex gap-10 mt-10 justify-center">
             <div
-              onClick={() => openLink("https://github.com/vyasmohle")}
+              onClick={() => openLink("https://www.linkedin.com/in/vyas-mohle-72b915298/")}
               className="w-[6vh] h-[6vh]   cursor-pointer rounded-full overflow-hidden"
             >
               <img
@@ -73,7 +73,7 @@ function Contact() {
             <h1 className="uppercase text-xl font-semibold mb-5">Social</h1>
             <div className="flex gap-2">
               <div
-                onClick={() => openLink("https://github.com/vyasmohle")}
+                onClick={() => openLink("https://www.linkedin.com/in/vyas-mohle-72b915298/")}
                 className="w-[4vh] cursor-pointer h-[4vh] rounded-full overflow-hidden"
               >
                 <img

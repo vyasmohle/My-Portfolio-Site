@@ -9,8 +9,10 @@ import Contact from "./Contact";
 import { motion } from "motion/react";
 import myPic from "../assets/myPic.jpg";
 import Tilt from 'react-parallax-tilt';
+import resume from "../assets/resume1.pdf";
 
 function Home() {
+  
   useEffect(() => {
     const scroll = new LocomotiveScroll({
       el: document.querySelector("[data-scroll-container]"),
@@ -121,7 +123,8 @@ function Home() {
               </motion.p>
 
               <div className="flex gap-5 mt-8 overflow-hidden h-[10vh] p-3  ">
-                <Link to="#">
+                
+                  <a  href={resume} target="_blank" rel="noopener noreferrer">
                   <motion.button
                   initial={{y:50, opacity: 0}}
                   animate={{y: 0, opacity: 1}}
@@ -129,7 +132,8 @@ function Home() {
                    className="uppercase px-4 py-3 rounded-lg bg-pink-900  ">
                     Open Resume
                   </motion.button>
-                </Link>
+                  </a>
+                
                 <motion.button
                 initial={{y:50, opacity: 0}}
                 animate={{y: 0, opacity: 1}}
