@@ -7,6 +7,26 @@ import { motion } from "motion/react";
 
 function Projects() {
   const ProjectData = [
+      {
+      width: "37vw",
+      // height: "60vh",
+      
+      name: "CG Yatri ",
+      p: "3vh",
+      bg: "url('https://images.unsplash.com/photo-1631879742077-0b48672bf910?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+      detail:
+        "CG Yatri is a smart travel web-app that provides real-time bus tracking, route search, and easy navigation across Raipur and Chhattisgarh.",
+      video1:
+        "./src/assets/cg-yatri.png",
+      video2: "",
+      overview1:
+        "CG Yatri aims to digitalize local transportation by enabling users to view live bus locations, routes, and timings.It is designed to offer passengers a safe, time-efficient, and convenient travel experience.",
+      overview2:
+        "TCG Yatri is a user-friendly platform that connects both government and private buses in one unified app.It helps daily commuters and travelers with better planning and a hassle-free journey.",
+      projectLink: "https://www.cgyatri.in/",
+      githubLink: "https://github.com/CgYatri/Frontend-App",
+      tools: ["Next.js", "Tailwind CSS", "JavaScript"],
+    },
     {
       width: "50vw",
       // height: "60vh",

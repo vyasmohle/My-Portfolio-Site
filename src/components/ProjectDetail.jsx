@@ -83,7 +83,7 @@ function HoverOpacityChange() {
                 {item.overview1}
               </p>
             </div>
-            <div className="w-[42%] h-full bg-red-500  rounded-[5vh] overflow-hidden">
+            <div className="w-[42%] h-full bg-black  rounded-[5vh] overflow-hidden">
               <video
                 className="w-full h-full object-cover"
                 autoPlay
